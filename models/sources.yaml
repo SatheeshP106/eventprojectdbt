@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: EVENTDB  
+    schema: staging                
+    tables:
+      - name: customers
+      - name: products
+      - name: transactions
